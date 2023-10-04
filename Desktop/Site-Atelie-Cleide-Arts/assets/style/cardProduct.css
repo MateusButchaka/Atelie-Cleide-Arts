@@ -1,0 +1,105 @@
+.product{
+    z-index: 0;
+    border-radius: 10px;
+    border: solid 1px rgb(223, 223, 223);
+    width: 21vw;
+    height: 40vw;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.product:hover{ 
+    transform: scale(1.01); 
+}
+.product-img{
+    height: 60%;
+    overflow: hidden;
+}
+.product-img img{
+    width: 100%;
+}
+.product-text{
+    padding: 15px;
+    height: 28%;
+}
+.product-text h4{
+    font-weight: 500;
+    font-size: 1.1vw;
+    text-align: center;
+}
+.product-text h3{
+    font-size: 2vw;
+    text-align: center;
+}
+.product-text p{
+    font-size: 12px;
+    text-align: center;
+}
+button.btn {
+    font-weight: 800;
+    color: white;
+    bottom: 0;
+    width: 88%;
+    height: 4vw;
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: #5cd15e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button.btn:hover {
+    cursor: pointer;
+    background-color: var(--pink); 
+    transform: scale(1.01); 
+}
+button>a{
+    color: white;
+}
+section{
+    color: black;
+}
+.botao:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.animation {
+    animation: fadeAnimation 0.3s ease-in-out;
+    opacity: 1;
+}
+@keyframes fadeAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@media (max-width:785px) {
+    .product{
+        width: 40vw;
+        height: 60vw;
+    }
+    .product-text{
+        padding: 5px;
+        height: 26%;
+    }
+    .product-text h4{
+        font-size: 12px;
+    }
+    .product-text h3{
+        font-size: 15px;
+    }
+    .product-text p{
+        font-size: 10px;
+    }
+    button.btn{
+        font-size: 2vw;
+        margin: 5px;
+        bottom: 10px;
+        width: 80%;
+        height: 5vw;
+        border-radius: 5px;
+    }
+}
+

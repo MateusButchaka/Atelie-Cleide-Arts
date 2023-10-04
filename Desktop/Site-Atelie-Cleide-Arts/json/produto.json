@@ -1,0 +1,191 @@
+[
+    {
+        "id": 1,
+        "nome": "Jogo De Fralda",
+        "img": "/assets/images/products/Pdt-01-01.jpeg",
+        "quantidade": 0,
+        "preco": 0,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 2,
+        "nome": "Toalha De Boca Para Batizado",
+        "img": "/assets/images/products/Pdt-02-01.jpeg",
+        "quantidade": 0,
+        "preco": 39.90,
+        "descricao": "Toalha da marca dorlher",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 3,
+        "nome": "Jogo De Toalha De Banho",
+        "img": "/assets/images/products/Pdt-03-01.jpeg",
+        "quantidade": 0,
+        "preco": 320.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 4,
+        "nome": "Toalha De Banho",
+        "img": "/assets/images/products/Pdt-04-01.jpeg",
+        "quantidade": 0,
+        "preco": 120.00,
+        "descricao": " Marca Dolher",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 5,
+        "nome": "Toalha De Banho E Toalha De Boca",
+        "img": "/assets/images/products/Pdt-05-01.jpeg",
+        "quantidade": 0,
+        "preco": 150.00,
+        "descricao": " Marca Dolher",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 6,
+        "nome": "Jogo De Fralda Passeio",
+        "img": "/assets/images/products/Pdt-06-01.jpeg",
+        "quantidade": 0,
+        "preco": 150.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 7,
+        "nome": "Fralda De Passeio",
+        "img": "/assets/images/products/Pdt-07-01.jpeg",
+        "quantidade": 0,
+        "preco": 250.00,
+        "descricao": " Cremer luxo ",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 8,
+        "nome": "Fralda de Boca",
+        "img": "/assets/images/products/Pdt-08-01.jpeg",
+        "quantidade": 0,
+        "preco": 0,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 9,
+        "nome": "Toalha De Boca",
+        "img": "/assets/images/products/Pdt-09-01.jpeg",
+        "quantidade": 0,
+        "preco": 37.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 10,
+        "nome": "Fralda De Passeio",
+        "img": "/assets/images/products/Pdt-10-01.jpeg",
+        "quantidade": 0,
+        "preco": 100.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 11,
+        "nome": "Capa De Cardeneta",
+        "img": "/assets/images/products/Pdt-11-01.jpeg",
+        "quantidade": 0,
+        "preco": 65.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 12,
+        "nome": "Fralda De Boca",
+        "img": "/assets/images/products/Pdt-12-01.jpeg",
+        "quantidade": 0,
+        "preco": 29.90,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 13,
+        "nome": "Capa De Cardeneta De Vacinação",
+        "img": "/assets/images/products/Pdt-13-01.jpeg",
+        "quantidade": 0,
+        "preco": 75.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 14,
+        "nome": "Toalha De Boca Para Madrinha De Batizado",
+        "img": "/assets/images/products/Pdt-14-01.jpeg",
+        "quantidade": 0,
+        "preco": 39.90,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 15,
+        "nome": "Toalha De Banho",
+        "img": "/assets/images/products/Pdt-15-01.jpeg",
+        "quantidade": 0,
+        "preco": 80.00,
+        "descricao": " fralda mabber",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 16,
+        "nome": "Toalha De Rosto Para Músico",
+        "img": "/assets/images/products/Pdt-16-01.jpeg",
+        "quantidade": 0,
+        "preco": 80.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 18,
+        "nome": "Jogo De Fralda",
+        "img": "/assets/images/products/Pdt-18-01.jpeg",
+        "quantidade": 0,
+        "preco": 0,
+        "descricao": "Fralda de passeio, Fralda de boca, Fralda de amamentação",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 19,
+        "nome": "Fraldinha De Boca",
+        "img": "/assets/images/products/Pdt-19-01.jpeg",
+        "quantidade": 0,
+        "preco": 29.90,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 20,
+        "nome": "Manta De Piquet",
+        "img": "/assets/images/products/Pdt-20-01.jpeg",
+        "quantidade": 0,
+        "preco": 250.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 21,
+        "nome": "Fralda De Boca",
+        "img": "/assets/images/products/Pdt-21-01.jpeg",
+        "quantidade": 0,
+        "preco": 35.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    },
+    {
+        "id": 22,
+        "nome": "Redutor De Berço",
+        "img": "/assets/images/products/Pdt-22-01.jpeg",
+        "quantidade": 0,
+        "preco": 330.00,
+        "descricao": "",
+        "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
+    }
+]

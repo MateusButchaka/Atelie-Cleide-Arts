@@ -1,0 +1,49 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.modal span{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 4vh;
+    right: 10vw;
+    cursor: pointer;
+}
+.modal-container{
+    overflow: hidden;
+    border-radius: 10px;  
+    z-index: 3000;
+    height: 90vh;
+}
+.product-image-css-modal{
+    height: 90vh;
+}
+.display-flex{
+    display: flex;
+    z-index: 3000;
+    animation: fadeAnimation 0.3s ease-in-out;
+}
+@keyframes fadeAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@media (max-width:785px) {
+    .modal-container{
+        height: 60vh;
+    }
+    .product-image-css-modal{
+        height: 60vh;
+    }
+}

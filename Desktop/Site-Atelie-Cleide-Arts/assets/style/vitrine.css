@@ -1,0 +1,65 @@
+#Produtos, #Sobre, #Contato{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 0;
+    margin-top: -75px;
+    background-color: transparent;
+    z-index: -1;
+}
+.hr{
+    width: 100%;
+    border-bottom: solid rgb(231, 231, 231) 1px;
+}
+#vitrine{
+    width: 100%;
+    padding: 0px 5%;
+    justify-content: center;
+    align-items: center;
+}
+#vitrine h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+#home-product{
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-products-flex{
+    z-index: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 50px;
+}
+.container-products-none{
+    display: none;
+}
+#btn-vitrine-page{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.botao{
+    z-index: 1;
+    border: 1px solid rgb(206, 205, 205);
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    text-align: center;
+    font-weight: 800;
+    margin: 2px
+}
+@media (max-width:785px) {
+    #vitrine h1{
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    .container-products-flex{
+        grid-template-columns: 1fr 1fr;
+    }
+}

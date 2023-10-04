@@ -1,0 +1,121 @@
+.container-product{
+    display: flex;
+    width: 98vw;
+    padding: 10% 10%;
+}
+.imgS{
+    display: flex;
+    width: 60%;
+    z-index: 0;
+}
+/* .carrosel{
+    padding: 0 5% 0 0;
+} */
+/* .img-style{
+    width: 8vw;
+    height: 8vw;
+    overflow: hidden;
+    border-radius: 2vw;
+    margin-bottom: 5px;
+} */
+/* .carrosel img{
+    height: 8vw;
+} */
+.img{
+    overflow: hidden;
+    border-radius: 2vw;
+    width: 70%;
+    height: 30vw;
+    background-color: blue;
+}
+.img-product{
+    width: 100%;
+    z-index: 0;
+    cursor: pointer;
+}
+.buy-product{
+    z-index: 0;
+    width: 40%;
+}
+.buy-product h1{
+    color: grey;
+    font-size: 3vw;
+}
+.buy-product h4{
+    font-size: 4vw;
+    margin: 20px 0;
+}
+.buy-product button{
+    font-size: 1.3vw;
+    font-weight: 800;
+    color: white;
+    width: 100%;
+    height: 4vw;
+    margin-top: 2vw;
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: #5cd15e;
+}
+.buy-product button:hover {
+    cursor: pointer;
+    background-color: var(--pink); 
+    transform: scale(1.01); 
+}
+.description{
+    padding: 0 10% 10% 10%;
+}
+.hr{
+    width: 100%;
+    border-bottom: solid rgb(231, 231, 231) 1px;
+}
+@media (max-width:785px) {
+    .container-product{
+        padding: 30% 10%;
+        display: block;
+    }
+    .imgS{
+        display: block;
+    }
+    /* .carrosel{
+        display: flex;
+        padding: 0 0 0 0;
+        gap: 5px;
+        justify-content: center;
+        width: 80vw;
+    } */
+    /* .img-style{
+        width: 15vw;
+        height: 15vw;
+        margin-bottom: 5px;
+        z-index: 0;
+    }
+    .carrosel img{
+        height: 15vw;
+    } */
+    .img{
+        width: 80vw;
+        height: 80vw;
+    }
+    .img-product{
+        width: 100%;
+    }
+    .buy-product{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .buy-product h1{
+        margin-top: 5vw;
+        font-size: 5vw;
+    }
+    .buy-product h4{
+        margin: 5vw 0;
+        font-size: 10vw;
+    }
+    .buy-product button{
+        font-size: 3vw;
+        height: 10vw;
+        margin-top: 5vw;
+    }
+}
