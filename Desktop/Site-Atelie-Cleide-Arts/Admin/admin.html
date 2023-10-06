@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/Admin.css">
+    <title>Administração</title>
+</head>
+<body>
+    <header>
+        <h1>Administração do Site</h1>
+    </header>
+    <main>
+        <section class="add-product">
+            <h2>Adicionar Novo Produto</h2>
+            <form id="product-form" action="/admin/add-product" method="POST">
+                <label for="product-name">Nome do Produto:</label>
+                <input type="text" id="product-name" name="product-name" required>
+                
+                <label for="product-description">Descrição:</label>
+                <textarea id="product-description" name="product-description" required></textarea>
+                
+                <label for="product-price">Preço:</label>
+                <input type="number" id="product-price" name="product-price" step="0.01" required>
+                
+                <label for="product-image">Imagem do Produto:</label>
+                <input type="file" id="product-image" name="product-image" accept=".jpg, .jpeg, .png" required>
+    
+                <button type="submit">Adicionar Produto</button>
+            </form>
+        </section>
+        
+        <section id="edit-product-form" style="display: none;">
+            <h2>Editar Produto</h2>
+            <form id="edit-form">
+                <label for="edit-product-name">Nome do Produto:</label>
+                <input type="text" id="edit-product-name" required>
+
+                <label for="edit-product-description">Descrição:</label>
+                <textarea id="edit-product-description" required></textarea>
+
+                <label for="edit-product-price">Preço:</label>
+                <input type="number" id="edit-product-price" step="0.01" required>
+
+                <label for="edit-product-image">Imagem do Produto (URL):</label>
+                <input type="url" id="edit-product-image" required>
+
+                <button type="submit">Salvar</button>
+                <button type="button" id="cancel-edit-button">Cancelar</button>
+            </form>
+        </section>  
+        <section id="product-list" class="product-list">
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="./assets/js/admin.js"></script>
+</body>
+</html>
+
